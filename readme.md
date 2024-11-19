@@ -1,4 +1,3 @@
-Here's a GitHub README file for your Simon Says game project:
 
 # Simon Says Game 🎮
 
@@ -10,6 +9,11 @@ A fun and interactive **Simon Says** memory game built with HTML, CSS, and JavaS
 <!-- - **Strict Mode**: Play in strict mode for added difficulty — mistakes reset the game! -->
 - **Responsive Design**: Enjoy the game on both desktop and mobile devices.
 - **Customisable Sound**: Sound effects are linked directly from the web.
+
+
+## 🎨 Screenshots
+
+![simonsays preview](img/preview.jpg) 
 
 ## 🚀 How to Play
 1. **Start the Game**: Click the **Start** button.
@@ -69,7 +73,6 @@ Contributions are welcome! If you have ideas to improve the game or fix bugs, fe
 ## Connect with Me
 
 Feel free to connect with me on my other platforms for updates, queries, or collaborations!
-
 
 - **GitHub**: [paul-srijan](https://github.com/paul-srijan)
 - **LinkedIn**: [Srijan Paul](https://www.linkedin.com/in/srijan-paul-547354260/)
