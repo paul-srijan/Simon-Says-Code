@@ -1,0 +1,133 @@
+/* <!-- CSS --> */
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(206, 201, 201);
+    font-family: 'Balsamiq Sans', sans-serif;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #controls {
+    margin: 20px 0 20px 0;
+  }
+
+  #strict-mode {
+    margin-right: 20px;
+  }
+
+  #simon-board {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+  }
+
+  .simon-btn {
+    width: 100px;
+    height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s;
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1) inset;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+/* colours */
+
+/* green */
+  .top-left {
+    background-color: darkgreen;
+    /* background-color: linear-gradient(135deg, #00b09b, #96c93d); */
+  }
+
+  /* red */
+  .top-right {
+    background-color: darkred;
+    /* background: linear-gradient(135deg, #ff512f, #dd2476); */
+  }
+  /* yellow */
+  .bottom-left {
+    background-color: goldenrod;
+    /* background: linear-gradient(135deg, #f7971e, #ffd200); */
+  }
+  /* blue */
+  .bottom-right {
+    background-color: darkblue;
+    /* background: linear-gradient(135deg, #396afc, #2948ff); */
+  }
+
+
+  #level span{
+    font-size: 24px;
+  }
+  .level-count {
+    color: red;
+    font-size: 24px;
+    background-color: rgb(81, 0, 0);
+    padding: 0.25rem 1rem;
+  }
+
+  #start-btn,
+  #power-btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  #start-btn:hover,
+  #power-btn:hover {
+    background-color: #27ae60;
+  }
+
+  #start-btn:disabled,
+  #power-btn:disabled {
+    background-color: #484a4b;
+    cursor: not-allowed;
+  }
