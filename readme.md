@@ -52,8 +52,8 @@ project-folder/
 
 ```
 
-## 🖥️ Demo
-![Game Demo](https://via.placeholder.com/600x400.png?text=Simon+Says+Game+Demo)
+<!-- ## 🖥️ Demo
+![Game Demo](https://via.placeholder.com/600x400.png?text=Simon+Says+Game+Demo) -->
 
 ## 🎮 How to Run Locally
 1. Clone this repository:
